@@ -15,6 +15,7 @@ I'm working a marketer for a year. Now my goal is to learn HTML, CSS and JavaScr
 * JavaScript
 
 # Code example
+<p>Hello, World!</p>
 
 # Education
 * Perm National Research Polytechnic University
