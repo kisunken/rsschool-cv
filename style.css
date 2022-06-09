@@ -1,6 +1,6 @@
 body {
     font-family:'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color:#323232;
     min-height:100vh;  /*появилась вертикальная прокрутка */
     margin: 0;
@@ -14,9 +14,9 @@ body {
     box-sizing: border-box;
   }
 
-  .header {
+  /*.header {
       border:2px solid red;
-  }
+  }*/
 
   .container {
     max-width: 1440px;
@@ -40,37 +40,35 @@ body {
     color: #323232;
   }
 
-  .header-image-name {
-    display: flex;
-    flex-wrap: wrap;
-    margin:20px;
-  }
-
-  .header-image {
-    width: 40%;
-    margin-left: 50px;
-    margin:10px;
-  }
-
-  .header-name {
-    width: 40%;
-    margin-left: 50px;
-    margin:30px;
-  } 
-
-  .main {
-      border:2px solid blue;
-  }
-
   .main-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
-  
+
   .section {
     width: 40%;
     margin-left: 50px;
   }
+
+.section-profile {
+    width: 40%;
+    text-align: center;
+    padding: 50px 30px 35px;
+}
+
+  .header-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  } 
+
+  /*.main {
+      border:2px solid blue;
+  }*/
+
 
   .section-title {
     padding-left: 14px;
@@ -84,6 +82,11 @@ body {
   .contact-items img{
       width: 32px;
       text-decoration: none;
+      
+  }
+
+  .contact-items a {
+    text-decoration: none;
   }
 
   .pre-code {
@@ -92,14 +95,33 @@ body {
       margin-left: 12px;
   }
 
-  .footer {
+  /*.footer {
       border: 2px solid plum;
-  }
+  }*/
 
   .footer-container {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around;
+      width:100%;
+      align-items: center;
+      background-color: #F9DDDD;
   }
+
+  .footer-github img{
+    height: 25px;
+    justify-content: left;
+  }
+
+  .footer-github a {
+    text-decoration: none;
+  }
+
+  .footer-rs img{
+      height: 25px;
+      float: right;
+  }
+
 
 
   @media (max-width: 768px) {
