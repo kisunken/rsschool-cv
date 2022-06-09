@@ -5,10 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<img src="assets/img/image.jpg" alt="My photo" width="200">
+
+
 <body>
-    
+    <header class="header">
+        <div class="container">
+ <!--           <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item" ><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item" ><a href="#summary">Summary</a></li>
+                    <li class="nav-item" ><a href="#skills">Skills</a></li>
+                    <li class="nav-item" ><a href="#code">Code</a></li>
+                    <li class="nav-item" ><a href="#courses">Courses</a></li>
+                    <li class="nav-item" ><a href="#education">Education</a></li>
+                    <li class="nav-item" ><a href="#english">English</a></li>
+                </ul>
+            </nav> -->
+            <div class="header-name">
+                <h1 class="name">Karina Davydova</h1>
+                <h2 class="student">Student</h2>
+             </div>
+             <div class="header-image">
+                <img src="assets/img/image.jpg" alt="my photo" width="200">
+            </div>
+            <section class="section" id="contacts"><h2>Contacts</h2>
+                <ul class="contact_icons">
+                    <li><a href="https://github.com/kisunken" target="_blank"><img src="/rsschool-cv/assets/svg/github-icon.svg" width="72"></a></li>
+                    <!--<li><a href="https://discordapp.com/users/~kk#0621/"><img src="/rsschool-cv/assets/svg/discord-icon.svg"></a></li> -->
+                    <li><a href="https://tlgg.ru/kdvydv"><img src="/rsschool-cv/assets/svg/telegram-icon.svg" width="72"></a></li>
+                </ul>
+            </section>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+        </section> -->
+
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p summary_text>I'm working a marketer for a year. Now my goal is to learn HTML, CSS and JavaScript because I want to try my hand at Frontend. I think my strengths are the desire to learn new things and develop, as well as structuring and time management. 
+            </p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>Figma</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>Git&GitHub</li>
+            </ul>
+        </section>
+
+        <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <pre>
+            "function multiply(a, b){
+                return  a * b
+            }"
+            </pre>
+        </section>
+
+        <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul>
+                <li>Code Basics – HTML</li>
+                <li>Code Basics – CSS</li>
+                <li>HTML Academy - HTML&CSS trainer</li>
+                <li>w3school - in process</li>
+            </ul>
+        </section>
+
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>Perm National Research Polytechnic University, bachelor's degree</p>
+        </section>
+
+        <section class="section" id="elanguages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>Russian - Native</li>
+                <li>English - Pre-intermediate (A2)</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer_github">
+                <a href="https://github.com/kisunken" target="_blank"><img src="assets/svg/github-icon.svg" alt="GitHubPage" width="28">GitHub</a>
+            </div>
+            <div class="footer_date">
+                <p>2021</p>
+            </div>
+            <div class="footer_rs"></div>
+            <a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/svg/rs_school_js.svg" alt="RSschoolStage0" height="28"></a>
+        </div>
+    </footer>
 </body>
 </html>
