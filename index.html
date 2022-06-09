@@ -15,13 +15,25 @@
 <body>
     <header class="header">
         <div class="container header-conteiner">
-            <div class="header-image">
-                <img src="assets/img/image.jpg" alt="my photo" width="200">
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-items"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-items"><a href="#summary">Summary</a></li>
+                    <li class="nav-items"><a href="#skills">Skills</a></li>
+                    <li class="nav-items"><a href="#courses">Courses</a></li>
+                    <li class="nav-items"><a href="#code">Code</a></li>
+                    <li class="nav-items"><a href="#languages">Languages</a></li>
+                    <li class="nav-items"><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+            <div class="header-image-name">
+                <section class="section secton-profile">
+                    <img src="assets/img/image.jpg" alt="my photo" width="200">
+                <div class="header-name">
+                    <h1 class="name">Karina Davydova</h1>
+                    <p class="student">Frontend Developer</p>
+                </section>
             </div>
-            <div class="header-name">
-                <h1 class="name">Karina Davydova</h1>
-                <p class="student">Frontend Developer</p>
-             </div>
             
         </div>
     </header>
@@ -30,16 +42,21 @@
         <div class="container main-container">
             <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
-                <p summary_text>I'm working a marketer for a year. Now my goal is to learn HTML, CSS and JavaScript because I want to try my hand at Frontend. I think my strengths are the desire to learn new things and develop, as well as structuring and time management. 
+                <p class="summary-text">I'm working a marketer for a year. Now my goal is to learn HTML, CSS and JavaScript because I want to try my hand at Frontend. I think my strengths are the desire to learn new things and develop, as well as structuring and time management. 
                 </p>
             </section>
 
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
-                <ul class="contact_icons">
-                    <!--<li><a href="https://github.com/kisunken" target="_blank"><img src="/rsschool-cv/assets/svg/github-icon.svg" width="72"></a></li> -->
+                <ul class="contact-icons">
                     <!--<li><a href="https://discordapp.com/users/~kk#0621/"><img src="/rsschool-cv/assets/svg/discord-icon.svg"></a></li> -->
-                    <li><a href="https://tlgg.ru/kdvydv"><img src="/rsschool-cv/assets/svg/telegram-icon.svg" width="56"></a></li>
+                    <li class="contact-items"><img src="/rsschool-cv/assets/svg/location.svg">Perm, Russia</li>
+                    <li class="contact-items">
+                        <img src="/rsschool-cv/assets/svg/telegram-icon.svg">Telegram: <a href="https://tlgg.ru/kdvydv">https://tlgg.ru/kdvydv</a>
+                    </li>
+                    <li class="contact-items">
+                        <img src="/rsschool-cv/assets/svg/github-icon.svg">GitHub: <a href="https://github.com/kisunken" target="_blank">https://github.com/kisunken</a>
+                    </li>
                 </ul>
             </section>
 
@@ -66,7 +83,7 @@
 
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-                <pre>
+                <pre class="pre-code">
                 function multiply(a, b){
                     return  a * b
                 }
@@ -90,12 +107,12 @@
 
     <footer>
         <div class="footer">
-            <div class="container">
+            <div class="container footer-container">
                 <div class="footer_github">
                     <a href="https://github.com/kisunken" target="_blank"><img src="assets/svg/github-icon.svg" alt="GitHubPage" width="28">GitHub</a>
                 </div>
                 <div class="footer_date">
-                    <p>2021</p>
+                    <p>© 2022</p>
                 </div>
                 <div class="footer_rs"></div>
                 <a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/svg/rs_school_js.svg" alt="RSschoolStage0" height="28"></a>
