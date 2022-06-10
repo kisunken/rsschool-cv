@@ -1,7 +1,7 @@
 body {
     font-family:'Montserrat', sans-serif;
-    font-size: 16px;
     color:#323232;
+    font-size: 16px;
     min-height:100vh;  /*появилась вертикальная прокрутка */
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 .nav-list {
@@ -44,8 +44,12 @@ body {
 .main-container {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid rgba(0, 64, 255, 0.467);
+  /*border: 2px solid rgba(0, 64, 255, 0.467);*/
   
+}
+
+h1 {
+  font-size: 2em;
 }
 
 .section {
@@ -58,8 +62,9 @@ body {
   box-shadow: 0 0 10px rgba(200, 242, 255, 0.5); */
 }
 
-#summary, #contacts, #courses, #skills, #code, #languages, #education {
+.border-line {
   border-right: 4px solid #F9DDDD;
+  height: 100px;
 }
 
 .section-title{
@@ -73,16 +78,14 @@ body {
   justify-content: space-around;
   align-items: center;
   height:200px;
+  text-align: center;
 }
 
-.section-profile img {
-  
+.section-profile {
+  border-bottom: 4px solid #F9DDDD;
+  margin-left: 450px;
+  margin-right: 450px;
 }
-
-/*.main {
-    border:2px solid blue;
-}*/
-
 
 .section-title {
   padding-left: 14px;
@@ -133,7 +136,7 @@ body {
     width:100%;
     align-items: center;
     background-color: #F9DDDD;
-    border: 2px solid purple;
+    /*border: 2px solid purple;*/
 }
 
 .footer-github img{
@@ -149,8 +152,6 @@ body {
     height: 25px;
     float: right;
 }
-
-
 
 @media (max-width: 768px) {
   .section {
