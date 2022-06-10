@@ -105,6 +105,8 @@ h1 {
     width: 32px;
     text-decoration: none;
     margin-right: 8px;
+    margin-bottom: 4px;
+    vertical-align: middle;
 }
 
 .contact-items a {
@@ -142,6 +144,9 @@ h1 {
 .footer-github img{
   height: 25px;
   justify-content: left;
+  margin-right: 8px;
+  margin-bottom: 4px;
+  vertical-align: middle;
 }
 
 .footer-github a {
