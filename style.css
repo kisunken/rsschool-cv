@@ -41,6 +41,10 @@ body {
   color: #323232;
 }
 
+.nav-items a:hover, .nav-items a:active, .nav-items a:focus {
+  color:white;
+}
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -87,6 +91,11 @@ h1 {
   margin-right: 450px;
 }
 
+.prof-img{
+  width: 200px;
+  border-radius: 50%;
+}
+
 .section-title {
   padding-left: 14px;
   display: inline-block;
@@ -111,6 +120,10 @@ h1 {
 
 .contact-items a {
   text-decoration: none;
+}
+
+.contact-items a:hover, .contact-items a:active, .contact-items a:focus {
+  color:#BAD9E8;
 }
 
 .ul-items {
@@ -151,6 +164,10 @@ h1 {
 
 .footer-github a {
   text-decoration: none;
+}
+
+.footer-github a:hover,.footer-github a:active,.footer-github a:focus {
+  color:white;
 }
 
 .footer-rs img{
